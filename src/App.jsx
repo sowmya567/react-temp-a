@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-//import './App.css'
-import { BrowserRouter,Link,Routes,Route } from "react-router-dom";
+import { useState } from "react";
+// import "./App.css";
+import { BrowserRouter, Link,Routes,Route } from "react-router-dom";
 import App1 from "./components/App1";
 import App2 from "./components/App2";
 import App3 from "./components/App3";
 import App4 from "./components/App4";
-import App5 from "./components/App5";
+import App5 from "./components/App5"
 import App6 from "./components/App6";
 import App7 from "./components/App7";
 import App8 from "./components/App8";
@@ -23,43 +21,44 @@ import App17 from "./components/App17";
 import App18 from "./components/App18";
 import App19 from "./components/App19";
 import App20 from "./components/App20";
+import App21 from "./components/App21";
 function App() {
- 
-
   return (
     <BrowserRouter>
-    <div>
-      <Link to="app1">App1</Link>
-      <Link to="app2">App2</Link>
-      <Link to="app3">App3</Link>
-      <Link to="app4">App4</Link>
-      <Link to="app5">App5</Link>
-      <Link to="app6">App6</Link>
-      <Link to="app7">App7</Link>
-        <Link to="app8">App8</Link>
-        <Link to="app9">App9</Link>
-        <Link to="app10">App10</Link>
-        <Link to="app11">App11</Link>
-        <Link to="app12">App12</Link>
-        <Link to="app13">App13</Link>
-        <Link to="app14">App14</Link>
-        <Link to="app15">App15</Link>
-        <Link to="app16">App16</Link>
-        <Link to="app17">App17</Link>
-        <Link to="app18">App18</Link>
-        <Link to="app19">App19</Link>
-        <Link to="app20">App20</Link>
-    </div>
-    <div>
-      <Routes>
-        <Route index element={<App1/>}/>
-        <Route path="app1" element={<App1/>}/>
-        <Route path="app2" element={<App2/>}/>
-        <Route path="app3" element={<App3/>}/>
-        <Route path="app4" element={<App4/>}/>
-        <Route path="app5" element={<App5/>}/>
-        <Route path="app6" element={<App6/>}/>
-        <Route path="app7" element={<App7 />} />
+      <div>
+        <Link to="app1">App1</Link>-
+        <Link to="app2">App2</Link>-
+        <Link to="app3">App3</Link>-
+        <Link to="app4">App4</Link>-
+        <Link to="app5">App5</Link>-
+        <Link to="app6">App6</Link>-
+        <Link to="app7">App7</Link>-
+        <Link to="app8">App8</Link>-
+        <Link to="app9">App9</Link>-
+        <Link to="app10">App10</Link>-
+        <Link to="app11">App11</Link>-
+        <Link to="app12">App12</Link>-
+        <Link to="app13">App13</Link>-
+        <Link to="app14">App14</Link>-
+        <Link to="app15">App15</Link>-
+        <Link to="app16">App16</Link>-
+        <Link to="app17">App17</Link>-
+        <Link to="app18">App18</Link>-
+        <Link to="app19">App19</Link>-
+        <Link to="app20">App20</Link>-
+        <Link to="app21">App21</Link>
+      </div>
+      <hr></hr>
+      <div>
+        <Routes>
+          <Route index element={<App1 />} />
+          <Route path="app1" element={<App1 />} />
+          <Route path="app2" element={<App2 />} />
+          <Route path="app3" element={<App3 />} />
+          <Route path="app4" element={<App4 />} />
+          <Route path="app5" element={<App5 />} />
+          <Route path="app6" element={<App6 />} />
+          <Route path="app7" element={<App7 />} />
           <Route path="app8" element={<App8 />} />
           <Route path="app9" element={<App9 />} />
           <Route path="app10" element={<App10 />} />
@@ -73,10 +72,10 @@ function App() {
           <Route path="app18" element={<App18 />} />
           <Route path="app19" element={<App19 />} />
           <Route path="app20" element={<App20 />} />
-      </Routes>
-    </div>
+          <Route path="app21" element={<App21 />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
-
-export default App
+export default App;
