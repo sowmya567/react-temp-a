@@ -4,7 +4,7 @@ export default class App20 extends Component{
         return(
             <div>
                 <h3>This is App20</h3>
-                <p>it is a classs component</p>
+                <p>it is a class component</p>
             </div>
         )
     }
