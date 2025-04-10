@@ -1,18 +1,8 @@
 import React from 'react';
 
-const Greeting = ({ name, age }) => {
-  return (
-    <div>
-      <h1>Hello, {name}!</h1>
-      <p>You are {age} years old.</p>
-    </div>
-  );
-};
-
-// Define default props
-Greeting.defaultProps = {
-  name: 'Guest',
-  age: 18,
-};
+// Greeting component with default props
+function Greeting({ name = 'Guest', age = 25 }) {
+  return <h1>Hello, {name}. You are {age} years old.</h1>;
+}
 
 export default Greeting;
